@@ -1,0 +1,32 @@
+form>div,fieldset>div{
+    margin-bottom: 15px;
+}
+fieldset{
+    background-color: rgb(231, 240, 231);
+    margin-bottom: 10px;
+    padding-left: 0px;
+}
+.tamLabel{
+    width: 400px;
+}
+label{
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    font-weight: bold;
+}
+textarea{
+    width: 400px;
+    height: 100px;
+    vertical-align: text-top;
+}
+div.caixa{
+    padding-left: 200px;
+}
+.caixa label{
+    text-align: left;
+}
+.btn{
+    padding-left: 200px;
+}
+

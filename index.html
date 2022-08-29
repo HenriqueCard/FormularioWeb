@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Dados Pessoais</h1>
+    <form>
+        <fieldset>
+            <legend>Informacoes</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" class="tamLabel" name="nome" id="nome" placeholder="Nome completo" required>    
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" class="tamLabel" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="telefone" >Telefone:</label>
+                <input type="mail" class="tamLabel" name="telefone" id="telefone" placeholder="Telefone" required>
+            </div>
+        </fieldset>
+        <div>
+            <label for="estado">Estado:</label>
+            <select class="tamLabel" name="estado" id="estado">
+                <option value="minas">Minas Gerais</option>
+                <option value="sampa">Sao Paulo</option>
+                <option value="rio">Rio de Janeiro</option>
+            </select>
+        </div>
+        <div>
+            <label for="endereço">Endereço:</label>
+            <textarea name="endereço" id="endereço" placeholder="Endereço completo"></textarea>
+        </div>
+        <div class="caixa">
+            <input type="checkbox" name="dados" id="dados">
+            <label for="dados">Deseja receber emails</label>
+        </div>
+        <div class="btn">
+            <input type="button" onclick="imprimir()" id="botao" value="Finalizar Cadastro">
+        </div>
+        
+    </form>
+    <footer>
+        <p id="rodape"></p>
+    </footer>
+    <script src="formulario.js"></script>
+</body>
+</html>
